@@ -43,3 +43,25 @@ body {
     text-shadow: 0 0 5px #1aff00, 0 0 10px #1aff00, 0 0 20px #1aff00, 0 0 40px #1aff00;
     display: inline;
 }
+
+a {
+    display: block;
+    margin-top: 30px;
+    border-radius: 20px;
+    height: 66px;
+    width: 192px;
+    text-decoration: none;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+a:first-of-type {
+    background-color: blue;
+}
+
+a:last-of-type {
+    background-color: blueviolet;
+}
