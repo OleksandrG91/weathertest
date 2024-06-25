@@ -1,0 +1,45 @@
+body {
+    background-image: url('background.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    font-family: "Arial", sans-serif;
+    color: #fff;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    max-width: 800px;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.6);
+    border-radius: 10px;
+}
+
+.title {
+    font-size: 36px;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+}
+
+.weather-info {
+    font-size: 24px;
+}
+
+.current-weather {
+    margin-bottom: 20px;
+}
+
+.weather-forecast {
+    font-size: 18px;
+}
+
+.neon-text {
+    color: #1aff00;
+    text-shadow: 0 0 5px #1aff00, 0 0 10px #1aff00, 0 0 20px #1aff00, 0 0 40px #1aff00;
+    display: inline;
+}
