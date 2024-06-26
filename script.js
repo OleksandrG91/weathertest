@@ -1,5 +1,5 @@
-const weatherUrl = 'https://api.openweathermap.org/data/2.5/weather?q=Kyiv&appid=bf35cac91880cb98375230fb443a116f&units=metric';
-const forecastUrl = 'https://api.openweathermap.org/data/2.5/forecast?q=Kyiv&appid=bf35cac91880cb98375230fb443a116f&units=metric';
+const weatherUrl = 'https://api.openweathermap.org/data/2.5/weather?q=Kyiv&appid=bf35cac91880cb98375230fb443a116f&units=metric&lang=ua';
+const forecastUrl = 'https://api.openweathermap.org/data/2.5/forecast?q=Kyiv&appid=bf35cac91880cb98375230fb443a116f&units=metric&lang=ua';
 
 // Функція для отримання погоди
 async function getWeather() {
